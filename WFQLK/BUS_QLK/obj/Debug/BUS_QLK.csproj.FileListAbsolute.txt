@@ -1,0 +1,9 @@
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\bin\Debug\BUS_QLK.dll
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\bin\Debug\BUS_QLK.pdb
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\bin\Debug\DAL_QLK.dll
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\bin\Debug\DTO_QLK.dll
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\bin\Debug\DAL_QLK.pdb
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\bin\Debug\DTO_QLK.pdb
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\obj\Debug\BUS_QLK.csprojResolveAssemblyReference.cache
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\obj\Debug\BUS_QLK.dll
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\BUS_QLK\obj\Debug\BUS_QLK.pdb

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73DFB897-F01E-4820-AECC-8CA46CD13DB6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DTO_QLK</RootNamespace>
+    <AssemblyName>DTO_QLK</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Account.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Category.cs">
+      <DependentUpon>Category.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Category.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Category.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Category_Detais.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Category_Detais.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DTO_Status.cs" />
+    <Compile Include="Product.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Product.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Product_Details.cs">
+      <DependentUpon>Product_Details.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Product_Details.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Product_Details.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Supplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Supplier.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Account.xsc">
+      <DependentUpon>Account.xsd</DependentUpon>
+    </None>
+    <None Include="Account.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Account.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Account.xss">
+      <DependentUpon>Account.xsd</DependentUpon>
+    </None>
+    <None Include="Category.xsc">
+      <DependentUpon>Category.xsd</DependentUpon>
+    </None>
+    <None Include="Category.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Category.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Category.xss">
+      <DependentUpon>Category.xsd</DependentUpon>
+    </None>
+    <None Include="Category_Detais.xsc">
+      <DependentUpon>Category_Detais.xsd</DependentUpon>
+    </None>
+    <None Include="Category_Detais.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Category_Detais.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Category_Detais.xss">
+      <DependentUpon>Category_Detais.xsd</DependentUpon>
+    </None>
+    <None Include="Product.xsc">
+      <DependentUpon>Product.xsd</DependentUpon>
+    </None>
+    <None Include="Product.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Product.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Product.xss">
+      <DependentUpon>Product.xsd</DependentUpon>
+    </None>
+    <None Include="Product_Details.xsc">
+      <DependentUpon>Product_Details.xsd</DependentUpon>
+    </None>
+    <None Include="Product_Details.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Product_Details.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Product_Details.xss">
+      <DependentUpon>Product_Details.xsd</DependentUpon>
+    </None>
+    <None Include="Supplier.xsc">
+      <DependentUpon>Supplier.xsd</DependentUpon>
+    </None>
+    <None Include="Supplier.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Supplier.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Supplier.xss">
+      <DependentUpon>Supplier.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

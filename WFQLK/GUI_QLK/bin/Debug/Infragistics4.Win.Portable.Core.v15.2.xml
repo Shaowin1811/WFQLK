@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+    <assembly>
+        <name>Infragistics4.Win.Portable.Core.v15.2</name>
+    </assembly>
+    <members>
+      <member name="T:Infragistics.Portable.Runtime.ClientNameAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.ClientNameAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ターゲット プラットフォームのメンバーの名前。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.ClientNameAttribute.AllowConflict">
+        <summary>このメンバーは、インフラジスティックス インフラストラクチャーをサポートするもので、外部から呼び出すことを意図したものではありません。</summary>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.ClientNameAttribute.AllowObfuscation">
+        <summary>このメンバーは、インフラジスティックス インフラストラクチャーをサポートするもので、外部から呼び出すことを意図したものではありません。</summary>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.ClientNameAttribute.ClientName">
+        <summary>ターゲット プラットフォームのメンバーの名前。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAClientNameAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAClientNameAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ターゲット プラットフォームのメンバーの名前。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCClientNameAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCClientNameAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ターゲット プラットフォームのメンバーの名前。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSClientNameAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSClientNameAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ターゲット プラットフォームのメンバーの名前。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.DontObfuscateAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.DontObfuscateAttribute.#ctor">
+        <summary>DontObfuscateAttribute コンストラクター。</summary>
+      </member>    
+        <member name="T:Infragistics.Portable.Runtime.EmitIgnoreAttribute">
+            <summary>この属性でマークされたメンバーはそのコードを生成しませんが、ClientName 属性に他のエンティティへの参照を割り当てられます。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.JAVAEmitIgnoreAttribute">
+            <summary>この属性でマークされたメンバーはそのコードを生成しませんが、ClientName 属性に他のエンティティへの参照を割り当てられます。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.OBJCEmitIgnoreAttribute">
+            <summary>この属性でマークされたメンバーはそのコードを生成しませんが、ClientName 属性に他のエンティティへの参照を割り当てられます。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.JSEmitIgnoreAttribute">
+            <summary>この属性でマークされたメンバーはそのコードを生成しませんが、ClientName 属性に他のエンティティへの参照を割り当てられます。</summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Infragistics.Portable.Runtime.EmitIgnoreTypeAttribute" -->
+        <!-- Badly formed XML comment ignored for member "T:Infragistics.Portable.Runtime.JAVAEmitIgnoreTypeAttribute" -->
+        <!-- Badly formed XML comment ignored for member "T:Infragistics.Portable.Runtime.OBJCEmitIgnoreTypeAttribute" -->
+        <!-- Badly formed XML comment ignored for member "T:Infragistics.Portable.Runtime.JSEmitIgnoreTypeAttribute" -->
+      <member name="T:Infragistics.Portable.Runtime.WidgetUtilities">
+        <summary>このクラスは Infragistics の内部でのみ使用されます。</summary>
+      </member>
+        <member name="M:Infragistics.Portable.Runtime.WidgetUtilities.FromExternalObject(System.Object)">
+            <summary>このメンバーは、インフラジスティックス インフラストラクチャーをサポートするもので、外部から呼び出すことを意図したものではありません。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.WidgetUtilities.ToExternalObject(System.Object)">
+            <summary>このメンバーは、インフラジスティックス インフラストラクチャーをサポートするもので、外部から呼び出すことを意図したものではありません。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.WidgetUtilities.Convert``2(System.Nullable{``0},System.Func{``0,``1})">
+            <summary>このメンバーは、インフラジスティックス インフラストラクチャーをサポートするもので、外部から呼び出すことを意図したものではありません。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.WidgetUtilities.Convert``2(``0[],System.Converter{``0,``1})">
+            <summary>このメンバーは、インフラジスティックス インフラストラクチャーをサポートするもので、外部から呼び出すことを意図したものではありません。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.IWidgetExternalObject">
+            <summary>このインターフェイスは Infragistics 内部使用のみです。</summary>
+        </member>
+        <member name="P:Infragistics.Portable.Runtime.IWidgetExternalObject.InternalObject">
+            <summary>公開用オブジェクトを表す内部オブジェクトを返します。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.IWidgetInternalObject">
+            <summary>このインターフェイスは Infragistics 内部使用のみです。</summary>
+        </member>
+        <member name="P:Infragistics.Portable.Runtime.IWidgetInternalObject.ExternalObject">
+            <summary>内部オブジェクトを表す公開用オブジェクトを返します。</summary>
+        </member>   
+        <member name="T:Infragistics.Portable.Runtime.LiteralStringAttribute">
+            <summary>メソッドがこの属性でマークされると、メソッドのパラメーターは純粋な文字列リテラルとして生成されます。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.JAVALiteralStringAttribute">
+            <summary>メソッドがこの属性でマークされると、メソッドのパラメーターは純粋な文字列リテラルとして生成されます。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.JSLiteralStringAttribute">
+            <summary>メソッドがこの属性でマークされると、メソッドのパラメーターは純粋な文字列リテラルとして生成されます。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.OBJCLiteralStringAttribute">
+            <summary>メソッドがこの属性でマークされると、メソッドのパラメーターは純粋な文字列リテラルとして生成されます。</summary>
+        </member>
+      <member name="T:Infragistics.Portable.Runtime.WeakAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WeakAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAWeakAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAWeakAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSWeakAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSWeakAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCWeakAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCWeakAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetAttribute.Name">
+        <summary>ウィジェットの名前。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WFWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WFWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WFWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェット モジュールの名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.MainWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.MainWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.MainWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.MainWidgetAttribute.Name">
+        <summary>ウィジェットの名前。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAMainWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAMainWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAMainWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCMainWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCMainWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCMainWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSMainWidgetAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSMainWidgetAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSMainWidgetAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェットの名前。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.SuppressWidgetMemberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.SuppressWidgetMemberAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVASuppressWidgetMemberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVASuppressWidgetMemberAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WFSuppressWidgetMemberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WFSuppressWidgetMemberAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCSuppressWidgetMemberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCSuppressWidgetMemberAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSSuppressWidgetMemberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSSuppressWidgetMemberAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.SuppressWidgetMemberCopyAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.SuppressWidgetMemberCopyAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVASuppressWidgetMemberCopyAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVASuppressWidgetMemberCopyAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCSuppressWidgetMemberCopyAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCSuppressWidgetMemberCopyAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSSuppressWidgetMemberCopyAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSSuppressWidgetMemberCopyAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetDefaultStringAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetDefaultStringAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetDefaultStringAttribute.Value">
+        <summary>ウィジェットのデフォルト。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAWidgetDefaultStringAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAWidgetDefaultStringAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCWidgetDefaultStringAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCWidgetDefaultStringAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSWidgetDefaultStringAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSWidgetDefaultStringAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetDefaultNumberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetDefaultNumberAttribute.#ctor(System.Double)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetDefaultNumberAttribute.Value">
+        <summary>ウィジェットのデフォルト。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAWidgetDefaultNumberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAWidgetDefaultNumberAttribute.#ctor(System.Double)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCWidgetDefaultNumberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCWidgetDefaultNumberAttribute.#ctor(System.Double)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSWidgetDefaultNumberAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSWidgetDefaultNumberAttribute.#ctor(System.Double)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetDefaultBooleanAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetDefaultBooleanAttribute.#ctor(System.Boolean)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetDefaultBooleanAttribute.Value">
+        <summary>ウィジェットのデフォルト。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAWidgetDefaultBooleanAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAWidgetDefaultBooleanAttribute.#ctor(System.Boolean)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCWidgetDefaultBooleanAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCWidgetDefaultBooleanAttribute.#ctor(System.Boolean)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSWidgetDefaultBooleanAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSWidgetDefaultBooleanAttribute.#ctor(System.Boolean)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="value">プロパティのデフォルト値。</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.MvcEnumSetStringEnumAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.MvcEnumSetStringEnumAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVADontHideAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVADontHideAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.DontHideAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.DontHideAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>    
+        <member name="T:Infragistics.Portable.Runtime.XamSuppressWidgetMemberAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamSuppressWidgetMemberAttribute.#ctor">
+            <summary>SuppressWidgetMemberAttribute コンストラクター。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.XamiOSSuppressWidgetMemberAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamiOSSuppressWidgetMemberAttribute.#ctor">
+            <summary>SuppressWidgetMemberAttribute コンストラクター。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.XamAndroidSuppressWidgetMemberAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamAndroidSuppressWidgetMemberAttribute.#ctor">
+            <summary>SuppressWidgetMemberAttribute コンストラクター。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.XamWPSuppressWidgetMemberAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamWPSuppressWidgetMemberAttribute.#ctor">
+            <summary>SuppressWidgetMemberAttribute コンストラクター。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.XamiOSTreatAsDoubleAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamiOSTreatAsDoubleAttribute.#ctor">
+            <summary>SuppressWidgetMemberAttribute コンストラクター。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.XamWrapperSuppressWidgetMemberAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamWrapperSuppressWidgetMemberAttribute.#ctor">
+            <summary>SuppressWidgetMemberAttribute コンストラクター。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.XamiOSTreatAsFloatAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamiOSTreatAsFloatAttribute.#ctor">
+            <summary>SuppressWidgetMemberAttribute コンストラクター。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Runtime.XamiOSEnumNameAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.XamiOSEnumNameAttribute.#ctor(System.String)">
+            <summary>WidgetDefaultStringAttribute コンストラクター。</summary>
+            <param name="value">ウィジェットのデフォルト。</param>
+        </member>
+        <member name="P:Infragistics.Portable.Runtime.XamiOSEnumNameAttribute.Value">
+            <summary>ウィジェットのデフォルト。</summary>
+        </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetMemberNameAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetMemberNameAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">メンバーの新しい名前</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetMemberNameAttribute.Name">
+        <summary>メンバーの名前</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WFWidgetMemberNameAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WFWidgetMemberNameAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">メンバーの新しい名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetNamespaceAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetNamespaceAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="namespace">生成したタイプの名前空間</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WFWidgetNamespaceAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WFWidgetNamespaceAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="namespace">生成したタイプの名前空間</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetDependencyPropertyAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetDependencyPropertyAttribute.#ctor">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetDependencyPropertyAttribute.#ctor(System.Boolean)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="isDependencyProperty">依存プロパティが必要な場合は True</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetFontPropertyAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetFontPropertyAttribute.#ctor(System.String,System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetModuleAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetModuleAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェット モジュールの名前</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetModuleAttribute.Name">
+        <summary>ウィジェット モジュールの名前。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JAVAWidgetModuleAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JAVAWidgetModuleAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェット モジュールの名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.JSWidgetModuleAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.JSWidgetModuleAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェット モジュールの名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.OBJCWidgetModuleAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.OBJCWidgetModuleAttribute.#ctor(System.String)">
+        <summary>属性の新しいインスタンスを初期化します</summary>
+        <param name="name">ウィジェット モジュールの名前</param>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetModuleParentAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetModuleParentAttribute.#ctor(System.String)">
+        <summary>WidgetModuleParentAttribute コンストラクター。</summary>
+        <param name="name">ウィジェットの親モジュールの名前。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetModuleParentAttribute.Name">
+        <summary>ウィジェットの親モジュールの名前。</summary>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetModuleParentAttribute.RestrictToSameAssembly">
+        <summary>このメンバーは、インフラジスティックス インフラストラクチャーをサポートするもので、外部から呼び出すことを意図したものではありません。</summary>
+      </member>
+      <member name="T:Infragistics.Portable.Runtime.WidgetIgnoreDependsAttribute">
+        <summary>プラットフォーム間の変換に使用する属性。</summary>
+      </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetIgnoreDependsAttribute.#ctor(System.String)">
+        <summary>WidgetIgnoreDependsAttribute コンストラクター。</summary>
+        <param name="name">無視する依存関係の名前。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetIgnoreDependsAttribute.Name">
+        <summary>無視する依存関係の名前。</summary>
+      </member>   
+        <member name="T:Infragistics.Portable.Runtime.WidgetIncludeDependsAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+      <member name="M:Infragistics.Portable.Runtime.WidgetIncludeDependsAttribute.#ctor(System.String)">
+        <summary>WidgetIgnoreDependsAttribute コンストラクター。</summary>
+        <param name="name">含む依存関係の名前。</param>
+      </member>
+      <member name="P:Infragistics.Portable.Runtime.WidgetIncludeDependsAttribute.Name">
+        <summary>含む依存関係の名前。</summary>
+      </member>
+        <member name="T:Infragistics.Portable.Runtime.WidgetModuleExclusionParentAttribute">
+            <summary>プラットフォーム間の変換に使用する属性。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Runtime.WidgetModuleExclusionParentAttribute.#ctor(System.String)">
+            <summary>WidgetModuleParentAttribute コンストラクター。</summary>
+            <param name="name">ウィジェットの親モジュールの名前。</param>
+        </member>
+        <member name="P:Infragistics.Portable.Runtime.WidgetModuleExclusionParentAttribute.Name">
+            <summary>ウィジェットの親モジュールの名前。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Graphics.Media.DoubleCollection">
+            <summary>System.Double データ型のコレクション クラス</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Graphics.Media.DoubleCollection.#ctor">
+            <summary>新しいインスタンスを作成します。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Graphics.Media.DoubleCollection.#ctor(System.Double[])">
+            <summary>新しいインスタンスを作成します。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Graphics.Media.DoubleCollection.DoubleCollectionTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>System.String の場合は true を返します。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Graphics.Media.DoubleCollection.DoubleCollectionTypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+            <summary>System.String へ変換します。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Graphics.Media.DoubleCollection.DoubleCollectionTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>CanConvertFrom</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Graphics.Media.DoubleCollection.DoubleCollectionTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <summary>ConvertFrom</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Graphics.Media.FillRule">
+            <summary>System.Windows.Media.Geometry に含まれる System.Windows.Media.PathFigure オブジェクトの交差領域が System.Windows.Media.Geometry を形成するために結合される方法を指定します。</summary>
+        </member>
+        <member name="F:Infragistics.Portable.Graphics.Media.FillRule.EvenOdd">
+            <summary>ポイントが塗りつぶし領域にあるかどうかを指定するルールです。ルールは、ポイントから無限へ線を描画し、線が交差する指定の図形のパス セグメントを数えます。この数値が奇数の場合、ポイントは内側に、偶数の場合は外側になります。</summary>
+        </member>
+        <member name="F:Infragistics.Portable.Graphics.Media.FillRule.Nonzero">
+            <summary>ポイントが塗りつぶし領域にあるかどうかを指定するルールです。ルールは、ポイントから無限へ線を描画し、図形の一部が線を交差する所を検証します。0 で開始し、図形の一部が線を左から右へ交差する場合は 1 を足し、右から左へ交差する場合は 1 を引きます。交差の件数を計算した結果 0 が得られるとポイントがパスの外側になります。そうでない場合は、内側にあります。</summary>
+        </member>
+        <member name="P:Infragistics.Portable.Graphics.Media.GeometryGroup.FillRule">
+            <summary>System.Windows.Media.GeometryGroup に含まれるオブジェクトの交差する領域が結合される方法を取得または設定します。</summary>
+        </member>
+        <member name="T:Infragistics.Portable.Components.UI.Visibility">
+            <summary>要素の表示状態を指定します。</summary>
+        </member>
+        <member name="F:Infragistics.Portable.Components.UI.Visibility.Visible">
+            <summary>要素の表示。</summary>
+        </member>
+        <member name="F:Infragistics.Portable.Components.UI.Visibility.Collapsed">
+            <summary>要素の非表示。</summary>
+        </member>
+        <member name="T:Infragistics.AssemblyVersion">
+            <summary>アセンブリの情報を設定することについて便利な情報を提供するオブジェクト。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.CompanyName">
+            <summary>アセンブリ会社名。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.EndCopyrightYear">
+            <summary>終了の著作権年</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.SatelliteContractVersion">
+            <summary>SatelliteContractVersion</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.MajorMinor">
+            <summary>9.1 などのアセンブリの主および副ビルド数。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.Build">
+            <summary>2009.1 などのアセンブリのビルド数。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.Revision">
+            <summary>アセンブリのリビジョン数。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.Version">
+            <summary>アセンブリのフル バージョン数。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.Configuration">
+            <summary>アセンブリ用の現在のビルド構成。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.AssemblyNamePrefix">
+            <summary>製品のすべてのアセンブリ名の接頭辞。</summary>
+        </member>
+        <member name="F:Infragistics.AssemblyVersion.AssemblyNameSuffix">
+            <summary>製品のすべてのアセンブリ名のサフィックス。</summary>
+        </member>
+        <member name="M:Infragistics.Portable.Graphics.Media.Color.op_Implicit(System.Drawing.Color)~Infragistics.Portable.Graphics.Media.Color">
+            <summary>新規の Infragistics.Portable.Graphics.Media インスタンスが既存の System.Drawing.Color インスタンスから生成されることを許可します。</summary>
+            <param name="color">Infragistics.Portable.Graphics.Media インスタンスが初期化される System.Drawing.Color インスタンスです。</param>
+            <returns>Infragistics.Portable.Graphics.Media インスタンス</returns>
+        </member>
+    </members>
+</doc>

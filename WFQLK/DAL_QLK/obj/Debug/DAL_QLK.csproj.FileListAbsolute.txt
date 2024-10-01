@@ -1,0 +1,7 @@
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\DAL_QLK\bin\Debug\DAL_QLK.dll
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\DAL_QLK\bin\Debug\DAL_QLK.pdb
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\DAL_QLK\bin\Debug\DTO_QLK.dll
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\DAL_QLK\bin\Debug\DTO_QLK.pdb
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\DAL_QLK\obj\Debug\DAL_QLK.csprojResolveAssemblyReference.cache
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\DAL_QLK\obj\Debug\DAL_QLK.dll
+D:\NhanVP\Work\Project\Training\C#\WFQLK\WFQLK\DAL_QLK\obj\Debug\DAL_QLK.pdb
